@@ -36,6 +36,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               About{" "}
             </a>
             <a
+              href="#research"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              Research{" "}
+            </a>
+            <a
               href="#projects"
               className="text-gray-300 hove:text-white transition-colors"
             >
@@ -48,6 +55,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             >
               {" "}
               Contact{" "}
+            </a>
+            <a
+              href="https://www.linkedin.com/in/adarsh-shetkar/"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              LinkedIn{" "}
             </a>
           </div>
         </div>

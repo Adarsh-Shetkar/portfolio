@@ -14,9 +14,9 @@ export const Home = () => {
           </h1>
 
           <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-            I’m a Software Engineer at JP Morgan Chase who loves crafting clean, scalable web
-            applications. My goal is to build solutions that offer both
-            exceptional performance and a delightful user experience.
+            I’m a Software Engineer at JPMorgan Chase, where I design and build scalable, high-performance applications. 
+            I care deeply about clean engineering practices 
+            and creating solutions that are both robust and user-centered.
           </p>
           <div className="flex justify-center space-x-4">
             <a
