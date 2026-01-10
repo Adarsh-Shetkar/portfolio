@@ -10,7 +10,7 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="relative z-10 flex flex-col md:flex-row items-center justify-between gap-12 max-w-7xl mx-auto px-6 md:px-12">
           
-          {/* 2. TEXT CONTENT (Wider to prevent "squeezing") */}
+          {/* 1. TEXT CONTENT (Wider to prevent "squeezing") */}
           <div className="text-left flex-[1.5] w-full">
             <h1 className="text-5xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight">
               Hi, I'm Adarsh <br /> Shetkar
@@ -40,7 +40,7 @@ export const Home = () => {
             </div>
           </div>
 
-          {/* 3. THE CIRCULAR PROFILE IMAGE */}
+          {/* 2. THE CIRCULAR PROFILE IMAGE */}
           <div className="flex-1 flex justify-center items-center">
              <div className="relative w-72 h-72 md:w-[400px] md:h-[400px]">
                 {/* Blue Glow Effect */}
