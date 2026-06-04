@@ -1,4 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
+import awsLogo from "../../assets/aws-logo-1.png"; // Import AWS logo
+import snowflakeLogo from "../../assets/snowflake-logo.png"; // Import Snowflake logo
 
 export const About = () => {
   const frontendSkills = [
@@ -16,7 +18,7 @@ export const About = () => {
   const toolside= [ "VS Code", "IntelliJ", "Eclipse", "GitHub", "JIRA", "Postman", "Docker", "Terraform" ]
 
   const dbCloud = [
-    "MySQL", "Snowflake", "Firebase", "MongoDB", "AWS", "Elasticsearch"
+    "MySQL", "Snowflake", "Firebase", "MongoDB", "AWS", "Docker", "Kubernetes"
   ];
 
   const backendSkills = ["Node.js", "Python", "Java", "Spring Boot", "Flask"];
@@ -27,7 +29,7 @@ export const About = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
             {" "}
             About Me
@@ -38,6 +40,23 @@ export const About = () => {
             Passionate engineer focused on building scalable applications 
             and crafting reliable, user-centered lakehouse solutions.
             </p>
+            {/* Certifications Section */}
+            <div className="flex flex-wrap items-center gap-6 text-sm text-gray-200 font-medium">
+              
+              {/* Snowflake Certification */}
+              <div className="flex items-center gap-2">
+                <img src={snowflakeLogo} alt="Snowflake Logo" className="w-5 h-5" />
+                <span>SnowPro Core Certified</span>
+              </div>
+
+              {/* AWS Certification */}
+              <div className="flex items-center gap-2">
+                {/* Using a local path bypasses adblockers */}
+                <img src={awsLogo} alt="AWS Logo" className="w-5 h-5" />
+                <span>AWS Certified Cloud Practitioner</span>
+              </div>
+              
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-1">
               <div className="rounded-xl p-2 hover:-translate-y-1 transition-all">
@@ -89,7 +108,7 @@ export const About = () => {
               </div>
 
               <div className="rounded-xl p-2 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-2"> Databases & Cloud</h3>
+                <h3 className="text-xl font-bold mb-2"> Databases & Cloud & Infrastructure</h3>
                 <div className="flex flex-wrap gap-2">
                   {dbCloud.map((tech, key) => (
                     <span
