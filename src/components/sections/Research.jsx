@@ -28,6 +28,7 @@ export const Research = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
+                  target="_blank"
                   href="https://ieeexplore.ieee.org/document/11234802"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
@@ -57,6 +58,7 @@ export const Research = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
+                  target="_blank"
                   href="https://ieeexplore.ieee.org/document/11007402"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
