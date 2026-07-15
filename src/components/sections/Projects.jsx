@@ -34,7 +34,8 @@ export const Projects = () => {
 
               <div className="flex justify-between items-center">
                 <a
-                  href="https://drive.google.com/drive/folders/1OXj1LQIPXCdyIZqYQNJenMi8-0V0WUxY?usp=sharing"
+                  target="_blank"
+                  href="https://github.com/Adarsh-Shetkar/BCI-Using-Deep-Learning"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
                   View Project →
@@ -72,6 +73,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
+                  target="_blank"
                   href="https://human-activity-recognition.onrender.com/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
@@ -112,6 +114,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center">
                 <a
+                  target="_blank"
                   href="https://visualisesort.netlify.app/"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >
@@ -150,6 +153,7 @@ export const Projects = () => {
               </div>
               <div className="flex justify-between items-center ">
                 <a
+                  target="_blank"
                   href="https://github.com/Adarsh-Shetkar/casa-de-vacaciones-holiday-home"
                   className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                 >

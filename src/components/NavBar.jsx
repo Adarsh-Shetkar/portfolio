@@ -57,6 +57,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Contact{" "}
             </a>
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/adarsh-shetkar/"
               className="text-gray-300 hove:text-white transition-colors"
             >
