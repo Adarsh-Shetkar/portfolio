@@ -43,6 +43,13 @@ export const About = () => {
             {/* Certifications Section */}
             <div className="flex flex-wrap items-center gap-6 text-sm text-gray-200 font-medium">
               
+              {/* AWS AI Certification */}
+              <div className="flex items-center gap-2">
+                {/* Using a local path bypasses adblockers */}
+                <img src={awsLogo} alt="AWS Logo" className="w-5 h-5" />
+                <span>AWS Certified AI Practitioner</span>
+              </div>
+
               {/* Snowflake Certification */}
               <div className="flex items-center gap-2">
                 <img src={snowflakeLogo} alt="Snowflake Logo" className="w-5 h-5" />
