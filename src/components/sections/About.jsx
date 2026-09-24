@@ -137,10 +137,20 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.E. in Information Technology </strong> - Chaitanya Bharathi Institute of Technology
-                  (2020-2024) CGPA: 9.45/10
+                  <strong> M.S. in Computer Science </strong> - University of California, San Diego
+                  (2026-2028)<br />
+                {/* </li>
+                <li> */}
+                  Relevant Coursework: Web Mining And Recommender Systems and Algorithm Design and Analysis
                 </li>
+              </ul>
+              <br />
+              <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
+                  <strong> B.E. in Information Technology </strong> - Chaitanya Bharathi Institute of Technology
+                  (2020-2024) CGPA: 9.45/10<br />
+                {/* </li>
+                <li> */}
                   Relevant Coursework: Data Structures & Algorithms, Web Development, Cloud
                   Computing, Operating System and Computer Networks
                 </li>
@@ -152,23 +162,23 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at JP Morgan Chase(2024 - Present){" "}
+                    Software Engineer at JP Morgan Chase(Jul 2024 - Sep 2026){" "}
                   </h4>
                   <p>
                   I transform complex data into clear, actionable insights by building scalable analytical applications, seamless data integrations, and high-performance lakehouse pipelines.
                   </p>
                 </div>
 
-                {/* <div>
+                <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Intern at JP Morgan Chase (2023){" "}
+                    Intern at JP Morgan Chase (Jan 2024 - Jun 2024){" "}
                   </h4>
                   <p>
                     Assisted in building front-end components and integration
                     REST APIs
                   </p>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

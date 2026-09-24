@@ -17,7 +17,7 @@ export const Home = () => {
             </h1>
 
             <p className="text-gray-300 text-lg md:text-xl mb-10 max-w-2xl leading-relaxed">
-              I’m a Software Engineer at JPMorgan Chase, where I design and build
+              I’m a Ex-Software Engineer at JPMorgan Chase, where I design and build
               scalable, high-performance applications. I care deeply about clean
               engineering practices and creating solutions that are both robust
               and user-centered.
