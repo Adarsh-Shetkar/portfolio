@@ -175,8 +175,8 @@ export const About = () => {
                     Intern at JP Morgan Chase (Jan 2024 - Jun 2024){" "}
                   </h4>
                   <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                    Automated ingestion of 1M+ records per batch with AWS Glue and built dashboards tracking SLA
+compliance across 200+ production data streams.
                   </p>
                 </div>
               </div>
